@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+<!--groupId uniquely identifies your project across all projects. A group ID should
+follow Java's package name rules. This means it starts with a reversed domain name you
+control.
+artifactId is the name of the jar without version
+version if you distribute it, then you can choose any typical version with numbers and dots (1.0, 1.1, 1.0.1, ...).
+Don't use dates as they are usually associated with SNAPSHOT (nightly) builds
+ -->
+    <groupId>machinecreek</groupId>
+    <artifactId>sparkpoc</artifactId>
+    <version>1.0-SNAPSHOT</version>
+
+    <properties>
+        <!--The Maven compiler accepts this command with –target and –source versions.
+         If we want to use the Java 8 language features the –source should be set to 1.8.
+         Also, for the compiled classes to be compatible with JVM 1.8, the –target value
+         should be 1.8. The default value for both of them is 1.6 version.-->
+        <maven.compiler.source>1.7</maven.compiler.source>
+        <maven.compiler.target>1.7</maven.compiler.target>
+        <!-- A character encoding scheme such as ASCII, UTF-8 or UTF-16 can be chosen to
+        be used for the reading and writing of files.-->
+        <encoding>UTF-8</encoding>
+        <scala.minor.version>2.10</scala.minor.version>
+        <scala.complete.version>${scala.minor.version}.5</scala.complete.version>
+        <spark.version>1.6</spark.version>
+    </properties>
+
+    <dependencies>
+        <dependency>
+            <!-- access scala by groupid, artificatid and version all dependencies accessed
+             like this add the scala plugin to project-->
+            <groupId>org.scala-lang</groupId>
+            <artifactId>scala-library</artifactId>
+            <version>${scala.complete.version}</version>
+        </dependency>
+
+        <!-- https://mvnrepository.com/artifact/org.apache.spark/spark-core -->
+        <dependency>
+            <groupId>org.apache.spark</groupId>
+            <artifactId>spark-core_${scala.minor.version}</artifactId>
+            <version>1.6.0</version>
+        </dependency>
+
+        <!-- https://mvnrepository.com/artifact/org.apache.spark/spark-sql -->
+        <dependency>
+            <groupId>org.apache.spark</groupId>
+            <artifactId>spark-sql_2.10</artifactId>
+            <version>1.6.0</version>
+        </dependency>
+        <!-- https://mvnrepository.com/artifact/com.databricks/spark-csv -->
+        <dependency>
+            <groupId>com.databricks</groupId>
+            <artifactId>spark-csv_2.10</artifactId>
+            <version>1.5.0</version>
+            <!-- adding the provided tag will not maven filter this file
+             to inlcude the file provided tag must be removedS-->
+          <!--  <scope>provided</scope> -->
+        </dependency>
+
+        <!-- https://mvnrepository.com/artifact/com.databricks/spark-xml -->
+        <dependency>
+            <groupId>com.databricks</groupId>
+            <artifactId>spark-xml_2.10</artifactId>
+            <version>0.4.1</version>
+        </dependency>
+
+        <!-- https://mvnrepository.com/artifact/com.databricks/spark-avro -->
+        <dependency>
+            <groupId>com.databricks</groupId>
+            <artifactId>spark-avro_2.10</artifactId>
+            <version>4.0.0</version>
+        </dependency>
+    </dependencies>
+
+    <build>
+        <!-- when the project was created the path was src/main/java which
+        was renamed its a source directory to contain all spark classes-->
+        <sourceDirectory>src/main/scala</sourceDirectory>
+        <plugins>
+            <!-- Multiple Versions of Scala Libraries Detected problem-->
+            <plugin>
+                <groupId>net.alchim31.maven</groupId>
+                <artifactId>scala-maven-plugin</artifactId>
+                <!-- upgrade maven to 3.1.6 -->
+                <version>3.1.6</version>
+                <configuration>
+                    <!-- add these two tags-->
+                    <scalaCompatVersion>${scala.minor.version}</scalaCompatVersion>
+                    <scalaVersion>${scala.complete.version}</scalaVersion>
+                </configuration>
+
+                <executions>
+                    <execution>
+                        <goals>
+                            <goal>compile</goal>
+                        </goals>
+                        <configuration>
+                            <args>
+                                <arg>-dependencyfile</arg>
+                                <arg>${project.build.directory}/.scala_dependencies</arg>
+                            </args>
+                        </configuration>
+                    </execution>
+                </executions>
+            </plugin>
+
+            <plugin>
+                <artifactId>maven-assembly-plugin</artifactId>
+                <version>2.4</version>
+
+                <executions>
+                    <execution>
+                        <id>distro-assembly</id>
+                        <phase>package</phase>
+                        <goals>
+                            <goal>single</goal>
+                        </goals>
+                        <configuration>
+                            <descriptors>
+                                <descriptor>src/assembly/custom_jar.xml</descriptor>
+                            </descriptors>
+                        </configuration>
+                    </execution>
+                </executions>
+            </plugin>
+
+
+
+        </plugins>
+    </build>
+</project>
