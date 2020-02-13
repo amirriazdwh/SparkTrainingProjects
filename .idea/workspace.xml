@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="4f65d857-59f2-4c81-84c8-b1dc162a50c1" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/sparkpoc.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sparkpoc/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sparkpoc/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sparkpoc/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sparkpoc/.idea/sbt.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sbt.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sparkpoc/.idea/scala_compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/scala_compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sparkpoc/.idea/uiDesigner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sparkpoc/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sparkpoc/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sparkpoc/sparkpoc.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sparkpoc/src/assembly/custom_jar - Copy.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/assembly/custom_jar - Copy.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sparkpoc/src/assembly/custom_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/assembly/custom_jar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sparkpoc/src/main/scala/META-INF/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/META-INF/MANIFEST.MF" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sparkpoc/src/main/scala/training/jaceklaskowaski/CustomSparkListener.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/training/jaceklaskowaski/CustomSparkListener.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sparkpoc/src/main/scala/training/rddFileProcessing/ActionMis.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/training/rddFileProcessing/ActionMis.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sparkpoc/src/main/scala/training/rddFileProcessing/BroadCastVariables.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/training/rddFileProcessing/BroadCastVariables.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sparkpoc/src/main/scala/training/rddFileProcessing/CachedPartition.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/training/rddFileProcessing/CachedPartition.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sparkpoc/src/main/scala/training/rddFileProcessing/CollectExample.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/training/rddFileProcessing/CollectExample.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sparkpoc/src/main/scala/training/rddFileProcessing/CombineByKey.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/training/rddFileProcessing/CombineByKey.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sparkpoc/src/main/scala/training/rddFileProcessing/FoldFunc.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/training/rddFileProcessing/FoldFunc.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sparkpoc/src/main/scala/training/rddFileProcessing/GroupByKey.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/training/rddFileProcessing/GroupByKey.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sparkpoc/src/main/scala/training/rddFileProcessing/ReduceByKey.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/training/rddFileProcessing/ReduceByKey.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sparkpoc/src/main/scala/training/rddFileProcessing/SparkGrep.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/training/rddFileProcessing/SparkGrep.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sparkpoc/src/main/scala/training/rddFileProcessing/WordCount.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/training/rddFileProcessing/WordCount.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sparkpoc/src/main/scala/training/rddFileProcessing/aggregateByKey.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/training/rddFileProcessing/aggregateByKey.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sparkpoc/src/main/scala/training/rddFileProcessing/mapPartition.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/training/rddFileProcessing/mapPartition.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sparkpoc/src/main/scala/training/sqlFileProcessing/loadAvroFile.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/training/sqlFileProcessing/loadAvroFile.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sparkpoc/src/main/scala/training/sqlFileProcessing/loadCvsFile.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/training/sqlFileProcessing/loadCvsFile.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sparkpoc/src/main/scala/training/sqlFileProcessing/loadJsonFile.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/training/sqlFileProcessing/loadJsonFile.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sparkpoc/src/main/scala/training/sqlFileProcessing/loadXmlFile.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/training/sqlFileProcessing/loadXmlFile.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sparkpoc/target/classes.-322207936.timestamp" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes.-322207936.timestamp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sparkpoc/target/classes/pl/jaceklaskowski/spark/CustomSparkListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pl/jaceklaskowski/spark/CustomSparkListener.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sparkpoc/target/classes/training/rddFileProcessing/ActionMis/package$$anonfun$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/training/rddFileProcessing/ActionMis/package$$anonfun$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sparkpoc/target/classes/training/rddFileProcessing/ActionMis/package$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/training/rddFileProcessing/ActionMis/package$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sparkpoc/target/classes/training/rddFileProcessing/ActionMis/package.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/training/rddFileProcessing/ActionMis/package.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sparkpoc/target/classes/training/rddFileProcessing/BroadCastVariables/package$$anonfun$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/training/rddFileProcessing/BroadCastVariables/package$$anonfun$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sparkpoc/target/classes/training/rddFileProcessing/BroadCastVariables/package$$anonfun$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/training/rddFileProcessing/BroadCastVariables/package$$anonfun$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sparkpoc/target/classes/training/rddFileProcessing/BroadCastVariables/package$$anonfun$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/training/rddFileProcessing/BroadCastVariables/package$$anonfun$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sparkpoc/target/classes/training/rddFileProcessing/BroadCastVariables/package$$anonfun$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/training/rddFileProcessing/BroadCastVariables/package$$anonfun$4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sparkpoc/target/classes/training/rddFileProcessing/BroadCastVariables/package$$anonfun$5.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/training/rddFileProcessing/BroadCastVariables/package$$anonfun$5.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sparkpoc/target/classes/training/rddFileProcessing/BroadCastVariables/package$$anonfun$6.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/training/rddFileProcessing/BroadCastVariables/package$$anonfun$6.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sparkpoc/target/classes/training/rddFileProcessing/BroadCastVariables/package$$anonfun$7.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/training/rddFileProcessing/BroadCastVariables/package$$anonfun$7.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sparkpoc/target/classes/training/rddFileProcessing/BroadCastVariables/package$$anonfun$8.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/training/rddFileProcessing/BroadCastVariables/package$$anonfun$8.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sparkpoc/target/classes/training/rddFileProcessing/BroadCastVariables/package$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/training/rddFileProcessing/BroadCastVariables/package$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sparkpoc/target/classes/training/rddFileProcessing/BroadCastVariables/package.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/training/rddFileProcessing/BroadCastVariables/package.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sparkpoc/target/classes/training/rddFileProcessing/CachedPartition/package$$anonfun$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/training/rddFileProcessing/CachedPartition/package$$anonfun$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sparkpoc/target/classes/training/rddFileProcessing/CachedPartition/package$$anonfun$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/training/rddFileProcessing/CachedPartition/package$$anonfun$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sparkpoc/target/classes/training/rddFileProcessing/CachedPartition/package$$anonfun$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/training/rddFileProcessing/CachedPartition/package$$anonfun$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sparkpoc/target/classes/training/rddFileProcessing/CachedPartition/package$$anonfun$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/training/rddFileProcessing/CachedPartition/package$$anonfun$4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sparkpoc/target/classes/training/rddFileProcessing/CachedPartition/package$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/training/rddFileProcessing/CachedPartition/package$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sparkpoc/target/classes/training/rddFileProcessing/CachedPartition/package.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/training/rddFileProcessing/CachedPartition/package.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sparkpoc/target/classes/training/rddFileProcessing/CollectExample/package$$anonfun$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/training/rddFileProcessing/CollectExample/package$$anonfun$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sparkpoc/target/classes/training/rddFileProcessing/CollectExample/package$$anonfun$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/training/rddFileProcessing/CollectExample/package$$anonfun$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sparkpoc/target/classes/training/rddFileProcessing/CollectExample/package$$anonfun$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/training/rddFileProcessing/CollectExample/package$$anonfun$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sparkpoc/target/classes/training/rddFileProcessing/CollectExample/package$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/training/rddFileProcessing/CollectExample/package$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sparkpoc/target/classes/training/rddFileProcessing/CollectExample/package.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/training/rddFileProcessing/CollectExample/package.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sparkpoc/target/classes/training/rddFileProcessing/CombineByKey/package$$anonfun$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/training/rddFileProcessing/CombineByKey/package$$anonfun$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sparkpoc/target/classes/training/rddFileProcessing/CombineByKey/package$$anonfun$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/training/rddFileProcessing/CombineByKey/package$$anonfun$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sparkpoc/target/classes/training/rddFileProcessing/CombineByKey/package$$anonfun$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/training/rddFileProcessing/CombineByKey/package$$anonfun$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sparkpoc/target/classes/training/rddFileProcessing/CombineByKey/package$$anonfun$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/training/rddFileProcessing/CombineByKey/package$$anonfun$4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sparkpoc/target/classes/training/rddFileProcessing/CombineByKey/package$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/training/rddFileProcessing/CombineByKey/package$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sparkpoc/target/classes/training/rddFileProcessing/CombineByKey/package.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/training/rddFileProcessing/CombineByKey/package.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sparkpoc/target/classes/training/rddFileProcessing/FoldFunc$$anonfun$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/training/rddFileProcessing/FoldFunc$$anonfun$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sparkpoc/target/classes/training/rddFileProcessing/FoldFunc$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/training/rddFileProcessing/FoldFunc$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sparkpoc/target/classes/training/rddFileProcessing/FoldFunc.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/training/rddFileProcessing/FoldFunc.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sparkpoc/target/classes/training/rddFileProcessing/GroupByKey$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/training/rddFileProcessing/GroupByKey$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sparkpoc/target/classes/training/rddFileProcessing/GroupByKey$CollectExample$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/training/rddFileProcessing/GroupByKey$CollectExample$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sparkpoc/target/classes/training/rddFileProcessing/GroupByKey.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/training/rddFileProcessing/GroupByKey.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sparkpoc/target/classes/training/rddFileProcessing/ReduceByKey$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/training/rddFileProcessing/ReduceByKey$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sparkpoc/target/classes/training/rddFileProcessing/ReduceByKey$CollectExample$$anonfun$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/training/rddFileProcessing/ReduceByKey$CollectExample$$anonfun$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sparkpoc/target/classes/training/rddFileProcessing/ReduceByKey$CollectExample$$anonfun$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/training/rddFileProcessing/ReduceByKey$CollectExample$$anonfun$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sparkpoc/target/classes/training/rddFileProcessing/ReduceByKey$CollectExample$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/training/rddFileProcessing/ReduceByKey$CollectExample$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sparkpoc/target/classes/training/rddFileProcessing/ReduceByKey.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/training/rddFileProcessing/ReduceByKey.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sparkpoc/target/classes/training/rddFileProcessing/SparkGrep$$anonfun$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/training/rddFileProcessing/SparkGrep$$anonfun$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sparkpoc/target/classes/training/rddFileProcessing/SparkGrep$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/training/rddFileProcessing/SparkGrep$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sparkpoc/target/classes/training/rddFileProcessing/SparkGrep.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/training/rddFileProcessing/SparkGrep.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sparkpoc/target/classes/training/rddFileProcessing/WordCount$$anonfun$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/training/rddFileProcessing/WordCount$$anonfun$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sparkpoc/target/classes/training/rddFileProcessing/WordCount$$anonfun$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/training/rddFileProcessing/WordCount$$anonfun$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sparkpoc/target/classes/training/rddFileProcessing/WordCount$$anonfun$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/training/rddFileProcessing/WordCount$$anonfun$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sparkpoc/target/classes/training/rddFileProcessing/WordCount$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/training/rddFileProcessing/WordCount$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sparkpoc/target/classes/training/rddFileProcessing/WordCount.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/training/rddFileProcessing/WordCount.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sparkpoc/target/classes/training/rddFileProcessing/aggregateByKey$$anonfun$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/training/rddFileProcessing/aggregateByKey$$anonfun$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sparkpoc/target/classes/training/rddFileProcessing/aggregateByKey$$anonfun$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/training/rddFileProcessing/aggregateByKey$$anonfun$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sparkpoc/target/classes/training/rddFileProcessing/aggregateByKey$$anonfun$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/training/rddFileProcessing/aggregateByKey$$anonfun$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sparkpoc/target/classes/training/rddFileProcessing/aggregateByKey$$anonfun$combOp$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/training/rddFileProcessing/aggregateByKey$$anonfun$combOp$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sparkpoc/target/classes/training/rddFileProcessing/aggregateByKey$$anonfun$combOp1$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/training/rddFileProcessing/aggregateByKey$$anonfun$combOp1$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sparkpoc/target/classes/training/rddFileProcessing/aggregateByKey$$anonfun$seqOp$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/training/rddFileProcessing/aggregateByKey$$anonfun$seqOp$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sparkpoc/target/classes/training/rddFileProcessing/aggregateByKey$$anonfun$seqOp1$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/training/rddFileProcessing/aggregateByKey$$anonfun$seqOp1$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sparkpoc/target/classes/training/rddFileProcessing/aggregateByKey$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/training/rddFileProcessing/aggregateByKey$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sparkpoc/target/classes/training/rddFileProcessing/aggregateByKey.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/training/rddFileProcessing/aggregateByKey.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sparkpoc/target/classes/training/rddFileProcessing/mapPartition$$anonfun$1$$anonfun$apply$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/training/rddFileProcessing/mapPartition$$anonfun$1$$anonfun$apply$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sparkpoc/target/classes/training/rddFileProcessing/mapPartition$$anonfun$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/training/rddFileProcessing/mapPartition$$anonfun$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sparkpoc/target/classes/training/rddFileProcessing/mapPartition$$anonfun$2$$anonfun$apply$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/training/rddFileProcessing/mapPartition$$anonfun$2$$anonfun$apply$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sparkpoc/target/classes/training/rddFileProcessing/mapPartition$$anonfun$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/training/rddFileProcessing/mapPartition$$anonfun$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sparkpoc/target/classes/training/rddFileProcessing/mapPartition$$anonfun$3$$anonfun$apply$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/training/rddFileProcessing/mapPartition$$anonfun$3$$anonfun$apply$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sparkpoc/target/classes/training/rddFileProcessing/mapPartition$$anonfun$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/training/rddFileProcessing/mapPartition$$anonfun$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sparkpoc/target/classes/training/rddFileProcessing/mapPartition$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/training/rddFileProcessing/mapPartition$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sparkpoc/target/classes/training/rddFileProcessing/mapPartition.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/training/rddFileProcessing/mapPartition.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sparkpoc/target/classes/training/sqlFileProcessing/loadAvroFile$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/training/sqlFileProcessing/loadAvroFile$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sparkpoc/target/classes/training/sqlFileProcessing/loadAvroFile.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/training/sqlFileProcessing/loadAvroFile.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sparkpoc/target/classes/training/sqlFileProcessing/loadCvsFile$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/training/sqlFileProcessing/loadCvsFile$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sparkpoc/target/classes/training/sqlFileProcessing/loadCvsFile.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/training/sqlFileProcessing/loadCvsFile.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sparkpoc/target/classes/training/sqlFileProcessing/loadJsonFile$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/training/sqlFileProcessing/loadJsonFile$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sparkpoc/target/classes/training/sqlFileProcessing/loadJsonFile.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/training/sqlFileProcessing/loadJsonFile.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sparkpoc/target/classes/training/sqlFileProcessing/loadXmlFile$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/training/sqlFileProcessing/loadXmlFile$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sparkpoc/target/classes/training/sqlFileProcessing/loadXmlFile.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/training/sqlFileProcessing/loadXmlFile.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sparkpoc/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sparkpoc/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sparkpoc/target/sparkpoc-1.0-SNAPSHOT-custom_jar.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/sparkpoc-1.0-SNAPSHOT-custom_jar.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sparkpoc/target/sparkpoc-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/sparkpoc-1.0-SNAPSHOT.jar" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="C:\gitproject\.idea" />
+      </set>
+    </option>
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
+  </component>
+  <component name="ProjectId" id="1XlbqqbVkBSwVTsPFxCelH5DzWt" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\gitproject" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SbtLocalSettings">
+    <option name="projectSyncType">
+      <map>
+        <entry key="$PROJECT_DIR$/../sparkProjects" value="PREVIEW" />
+      </map>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4f65d857-59f2-4c81-84c8-b1dc162a50c1" name="Default Changelist" comment="" />
+      <created>1581623821733</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1581623821733</updated>
+    </task>
+    <task id="LOCAL-00001" summary="delete a project">
+      <created>1581623948958</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1581623948958</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="delete a project" />
+    <option name="LAST_COMMIT_MESSAGE" value="delete a project" />
+  </component>
+</project>
